@@ -15,3 +15,23 @@ function num(a, b) {
   }
 }
 num(0,11)
+
+
+let thirdNumber = [];
+let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for (let i = 0; i < numbers; i++) {
+  let number = numbers[i].toLowerCase();
+  if (number === 0 || number === 3 || number === 6) {
+    thirdNumber.push(numbers[3]);
+  }
+}
+console.log(thirdNumber);
+
+
+
+function getVolume(height, radius) {
+  return height * radius;
+}
+console.log(getVolume(170, 400) + " объем конуса");
+
+
