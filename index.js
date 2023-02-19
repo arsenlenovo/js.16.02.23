@@ -28,10 +28,14 @@ for (let i = 0; i < numbers; i++) {
 console.log(thirdNumber);
 
 
-
 function getVolume(height, radius) {
   return height * radius;
 }
 console.log(getVolume(170, 400) + " объем конуса");
 
+
+function wordLength(str) {
+  console.log("В слове " + str + str.length + " букв");
+}
+wordLength("Ысык-Көл ");
 
